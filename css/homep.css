@@ -61,6 +61,14 @@ body {
   margin-right: 10px; /* Space between icon and text */
 }
 
+/* MEDIA QUERY for Mobile Devices */
+@media (max-width: 600px) {
+  /* Hide sidebar for mobile */
+  .sidebar {
+    display: none;
+}
+}
+
 .policies {
   margin-top: auto; /* Keeps policies at the bottom */
   padding-bottom: 20px; /* Padding for spacing */
