@@ -39,9 +39,9 @@ body::before {
 }
 
 /* For medium screens (tablets, smaller laptops) */
-@media (max-width: 1199px) {
+@media (max-width: 600px) {
   body::before {
-    background-image: url('/html/Data/background/6.jpeg'); /* Medium-sized image for tablets/laptops */
+    background-image: none; /* Remove background for mobile */
   }
 }
 
