@@ -325,6 +325,32 @@ body:focus-within .categories {
 }
 
 /* Marathi Songs Section */
+@media (max-width: 600px) {
+  .marathi-songs-section, .popular-section {
+    margin-left: 0; /* Reset margin on mobile */
+    padding: 0 10px; /* Add padding for mobile */
+  }
+
+  .marathi-songs, .popular-songs {
+    gap: 10px; /* Reduce gap between items */
+    justify-content: space-around; /* Spread items evenly */
+  }
+
+  .marathi-song, .popular-song {
+    width: 100px; /* Adjust size for mobile */
+    height: 100px; /* Match width and height for consistency */
+    padding: 10px;
+  }
+
+  .marathi-song img, .popular-song img {
+    border-radius: 8px;
+    width: 100%; /* Ensure image takes full width */
+  }
+
+  .marathi-song span, .popular-song span {
+    font-size: 12px; /* Adjust font size for mobile */
+  }
+}
 
 .marathi-songs-section {
   margin-top: 50px;
