@@ -323,29 +323,6 @@ body:focus-within .categories {
   margin-top: 5px;
   color: #b3b3b3;
 }
-/* Media query for small screens */
-@media (max-width: 600px) {
-  .podcast-section, .marathi-songs-section, .popular-section {
-      margin-left: 0; /* Remove left margin */
-      padding: 0 10px; /* Add padding */
-  }
-
-  .podcasts, .marathi-songs, .popular-songs {
-      gap: 10px; /* Reduce the gap between items */
-  }
-
-  .podcast, .marathi-song, .popular-song {
-      width: 100px; /* Smaller sizes for mobile */
-      padding: 10px; /* Reduce padding */
-  }
-
-  .popular-song {
-      border-radius: 50%; /* Maintain circular shape */
-      width: 100px; /* Smaller size */
-      height: 100px; /* Smaller size */
-  }
-}
-
 
 /* Marathi Songs Section */
 
@@ -438,6 +415,29 @@ body:focus-within .categories {
   text-align: center;
 
 }
+/* Media query for small screens */
+@media (max-width: 600px) {
+  .podcast-section, .marathi-songs-section, .popular-section {
+      margin-left: 0; /* Remove left margin */
+      padding: 0 10px; /* Add padding */
+  }
+
+  .podcasts, .marathi-songs, .popular-songs {
+      gap: 10px; /* Reduce the gap between items */
+  }
+
+  .podcast, .marathi-song, .popular-song {
+      width: 100px; /* Smaller sizes for mobile */
+      padding: 10px; /* Reduce padding */
+  }
+
+  .popular-song {
+      border-radius: 50%; /* Maintain circular shape */
+      width: 100px; /* Smaller size */
+      height: 100px; /* Smaller size */
+  }
+}
+
 /* General adjustments for smaller screens */
 @media (max-width: 600px) {
   body {
