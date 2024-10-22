@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login - Spotify</title>
+     
+     <link rel="stylesheet" href="/css/index.css">
+
+     <!-- Link to favicon -->
+     <link rel="icon" type="image/png" href="/html/Data/favicons/123.png" sizes="32x32">
+
+</head>
+
+<body>
+   <div class="login-container">
+        <div class="login-box">
+            <img src="https://storage.googleapis.com/pr-newsroom-wp/1/2018/11/Spotify_Logo_CMYK_Green.png" alt="Spotify Logo" class="logo">
+            <h2>Log in to Spotify</h2>
+            
+            <button class="login-btn google">Continue with Google</button>
+            <button class="login-btn facebook">Continue with Facebook</button>
+            <button class="login-btn apple">Continue with Apple</button>
+            <button class="login-btn phone">Continue with phone number</button>
+            
+            <!-- Set the form action to redirect to index.html -->
+               <form action="/html/index.html" method="GET" class="login-form">
+                <input type="text" placeholder="Email or username" required>
+                <input type="password" placeholder="Password" required>
+                <button type="submit" class="login-submit">Log In</button>
+            </form>
+            
+            <a href="#" class="forgot-link">Forgot your password?</a>
+            <p class="sign-up">Don't have an account? <a href="/html/signup.html">Sign up</a></p>
+        </div>
+        </div>
+</body>
+</html>

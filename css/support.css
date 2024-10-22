@@ -1,0 +1,62 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #000000;
+    color: #000000; /* Darker Teal for text */
+}
+
+header {
+    text-align: center;
+    padding: 40px 20px;
+    background-color: #000000; /* Dark Teal */
+    color: #ffffff; /* White text */
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background: rgba(117, 113, 113, 0.9); /* Slightly transparent white background */
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(208, 199, 199, 0.2);
+}
+
+h1, h2, h3 {
+    margin: 0;
+}
+
+h2 {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: #122900; /* Dark Teal */
+}
+
+.faq-item {
+    margin-bottom: 20px;
+    border: 1px solid #010101; /* Light Teal border */
+    border-radius: 5px;
+    padding: 15px;
+}
+
+
+label {
+    margin-top: 10px;
+}
+
+input, textarea {
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #B2EBF2; /* Light Teal border */
+    border-radius: 5px;
+    font-size: 1em;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #000000; /* Dark Teal */
+    color: #ffffff; /* White text */
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}

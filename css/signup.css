@@ -1,0 +1,152 @@
+/* General styles */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(135deg, #f7cac9, #92a8d1); /* Background gradient */
+}
+
+/* Main container with two sections */
+.main-container {
+    display: flex;
+    width: 100%;
+    height: 100%;
+}
+
+/* Left section for the form */
+.left-section {
+    background: linear-gradient(135deg, #f7cac9, #92a8d1); /* Gradient background */
+    flex: 1.5; /* Decreased flex value to make it narrower */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    padding: 50px;
+    /* Gradient fading effect on the right edge */
+    box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1); /* Shadow to soften the edge */
+}
+
+/* Help button in the right corner of the form section */
+.help-button {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}
+
+.help-button a {
+    background-color: transparent; /* Make the background transparent */
+    color: white; /* Font color white */
+    padding: 8px 16px; /* Adjusted padding */
+    border: none; /* No border */
+    text-decoration: underline; /* Underline the text */
+    font-size: 14px; /* Adjusted font size */
+    transition: color 0.3s, text-decoration 0.3s; /* Smooth transition for hover effects */
+}
+
+.help-button a:hover {
+    color: #f7cac9; /* Change to a lighter color on hover */
+    text-decoration: none; /* Remove underline on hover for a cleaner look */
+}
+
+/* Form container */
+.form-container {
+    background-color: rgba(255, 255, 255, 0.80); /* Slightly more opaque for better contrast */
+    padding: 30px; /* Increased padding for more gap */
+    border-radius: 10px;
+    box-shadow: 0px 0px 30px 10px rgba(255, 255, 255, 0.4), 
+                0px 4px 20px rgba(0, 0, 0, 0.1);
+    max-width: 400px;
+    width: 100%;
+    height: auto; /* Set to auto for responsive height */
+    min-height: 400px; /* Reduced minimum height */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+/* Logo styling */
+.logo {
+    max-width: 300px;
+    width: 100%;
+}
+
+/* Heading */
+h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    color: #1DB954; /* Spotify green */
+}
+
+/* Form inputs */
+.signup-form input {
+    width: 100%;
+    padding: 10px; /* Padding for better usability */
+    margin: 5px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+.gender-options {
+    display: flex;
+    justify-content: space-around;
+    margin: 10px 0;
+}
+
+.signup-submit {
+    width: 100%;
+    background-color: #1DB954;
+    color: white;
+    padding: 10px; /* Padding for better usability */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 10px;
+}
+
+.signup-submit:hover {
+    background-color: #1aa34a;
+}
+
+/* Right section for the Spotify logo */
+.right-section {
+    background: linear-gradient(135deg, #f7cac9, #92a8d1); /* Same gradient background */
+    flex: 2.5; /* Increased flex value to make it wider */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Terms and login prompt styles */
+.terms {
+    display: flex; /* Use flexbox for alignment */
+    align-items: center; /* Center vertically */
+    font-size: 12px; /* Smaller font for terms */
+    margin-top: 0; /* Remove space above checkbox */
+    color: black; /* White text for better visibility */
+}
+
+.terms a {
+    color: #1DB954; /* Spotify green for link */
+    text-decoration: none; /* No underline on link */
+    margin-left: 0; /* No space between checkbox and link */
+}
+
+.terms input {
+    margin-right: 5px; /* Space between checkbox and text */
+    width: auto; /* Adjust the checkbox width */
+}
+
+.login-prompt {
+    margin-top: 10px;
+    font-size: 14px;
+}
+
+.login-prompt a {
+    color: #1DB954;
+}

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Create Playlist</title>
+    <link rel="stylesheet" href="/css/create.css">
+    <link rel="icon" type="image/png" href="/html/Data/favicons/123.png" sizes="32x32">
+</head>
+<body>
+    <header>
+        <h1>Create a Playlist</h1>
+    </header>
+
+    <main>
+        <section class="create-playlist-form">
+            <h2>Create New Playlist</h2>
+            <form id="playlist-form">
+                <label for="playlist-name">Playlist Name:</label>
+                <input type="text" id="playlist-name" name="playlist-name" placeholder="Enter playlist name" required>
+
+                <label for="playlist-description">Description:</label>
+                <textarea id="playlist-description" name="playlist-description" placeholder="Enter a  description"></textarea>
+
+                <label for="playlist-cover">Cover Image:</label>
+                <input type="file" id="playlist-cover" name="playlist-cover" accept="image/*">
+
+                <button type="submit">Create Playlist</button>
+            </form>
+        </section>
+
+           <section class="playlists">
+            <h2>Your Playlists</h2>
+             <div class="playlist-container">
+                <!-- Playlist items will go here -->
+                <div class="playlist-item">
+                    <img src="" alt="Playlist Cover">
+                    <div class="playlist-info">
+                        <h3>My Favorite Songs</h3>
+                        <p>Not added Yet</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+</body>
+</html>

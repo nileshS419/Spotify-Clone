@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up - Spotify</title>
+
+    <!-- Link to favicon -->
+    <link rel="icon" type="image/png" href="/html/Data/favicons/123.png" sizes="32x32">
+
+    <!-- Link to CSS file -->
+    <link rel="stylesheet" href="/css/signup.css">
+</head>
+
+<body>
+   <div class="main-container">
+        <!-- Left section (Form container) -->
+        <div class="left-section">
+            <div class="help-button">
+                <a href="#">Help?</a>
+            </div>
+            <div class="form-container">
+                <h2>Sign up for Spotify</h2>
+
+                <form action="/html/login.html" method="POST" class="signup-form">
+                    <input type="text" placeholder="Enter your email" required>
+                    <input type="text" placeholder="Confirm your email" required>
+                    <input type="password" placeholder="Create a password" required>
+                    <input type="text" placeholder="What should we call you?" required>
+                    <input type="date" placeholder="Date of birth" required>
+
+                    <label>Gender</label>
+                    <div class="gender-options">
+                        <label><input type="radio" name="gender" value="male"> Male</label>
+                        <label><input type="radio" name="gender" value="female"> Female</label>
+                        <label><input type="radio" name="gender" value="other"> Other</label>
+                    </div>
+
+                    <!-- Terms and Conditions checkbox -->
+                    <label class="terms">
+                        <input type="checkbox" required><a href="#">I Agree to the Terms and Conditions</a>
+                    </label>
+
+                    <button type="submit" class="signup-submit">Sign Up</button>
+                </form>
+
+                <p class="login-prompt">Already have an account? <a href="/html/login.html">Log in</a></p>
+            </div>
+            </div>
+
+        <!-- Right section (Spotify logo) -->
+        <div class="right-section">
+            <img src="https://storage.googleapis.com/pr-newsroom-wp/1/2018/11/Spotify_Logo_CMYK_Green.png" alt="Spotify Logo" class="logo">
+        </div>
+        </div>
+</body>
+</html>
