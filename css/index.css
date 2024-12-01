@@ -34,7 +34,7 @@ body::before {
 /* For large screens */
 @media (min-width: 1200px) {
   body::before {
-    background-image: url('/html/Data/background/2.png'); /* Larger, high-quality image for desktops */
+    background-image: url('/nileshs419.github.io/html/Data/background/2.png'); /* Larger, high-quality image for desktops */
   }
 }
 
